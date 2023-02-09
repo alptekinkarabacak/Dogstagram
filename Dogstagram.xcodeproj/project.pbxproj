@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76807F029953D170054941C /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76807EF29953D170054941C /* PostList.swift */; };
+		A76C7D002994137800112679 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C7CFF2994137800112679 /* PostModel.swift */; };
 		A7BF31E22993985F003FA7D4 /* DogstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF31E12993985F003FA7D4 /* DogstagramApp.swift */; };
 		A7BF31E629939860003FA7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF31E529939860003FA7D4 /* Assets.xcassets */; };
 		A7BF31E929939860003FA7D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF31E829939860003FA7D4 /* Preview Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A76807EF29953D170054941C /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		A76C7CFF2994137800112679 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		A7BF31DE2993985F003FA7D4 /* Dogstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF31E12993985F003FA7D4 /* DogstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogstagramApp.swift; sourceTree = "<group>"; };
 		A7BF31E529939860003FA7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A76C7CFE2994135700112679 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A76C7CFF2994137800112679 /* PostModel.swift */,
+				A76807EF29953D170054941C /* PostList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A7BF31D52993985F003FA7D4 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +72,7 @@
 		A7BF31E02993985F003FA7D4 /* Dogstagram */ = {
 			isa = PBXGroup;
 			children = (
+				A76C7CFE2994135700112679 /* Model */,
 				A7BF31F62993D7FA003FA7D4 /* Helpers */,
 				A7BF31F12993CE58003FA7D4 /* Views */,
 				A7BF31E529939860003FA7D4 /* Assets.xcassets */,
@@ -183,10 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7BF31FA2993DC41003FA7D4 /* FeedView.swift in Sources */,
+				A76C7D002994137800112679 /* PostModel.swift in Sources */,
 				A7BF31F52993D009003FA7D4 /* ContentView.swift in Sources */,
 				A7BF31F82993D819003FA7D4 /* Extensions.swift in Sources */,
 				A7BF31FC2993E0B8003FA7D4 /* PostView.swift in Sources */,
 				A7BF31E22993985F003FA7D4 /* DogstagramApp.swift in Sources */,
+				A76807F029953D170054941C /* PostList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

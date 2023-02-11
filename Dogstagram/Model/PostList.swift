@@ -2,7 +2,7 @@
 import Foundation
 
 class PostList : ObservableObject {
-    @Published var post_list = [PostModel]()
+    @Published var post_list: Array<PostModel> = Array()
     init() {
         print("Fetched From Database")
         let post_1 = PostModel(post_id: "", user_id: "", user_name: "Unidentified1", caption: "This is a test cap ", date_create: Date(), like_count: 0, liked_by_user: false)
@@ -14,6 +14,9 @@ class PostList : ObservableObject {
         self.post_list.append(post_2)
         self.post_list.append(post_3)
         self.post_list.append(post_4)
-
+    }
+    
+    init(post : PostModel) {
+        self.post_list.append(post)
     }
 }

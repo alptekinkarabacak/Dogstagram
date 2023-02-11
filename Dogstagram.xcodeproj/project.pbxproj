@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72716A42996717600052D5D /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72716A32996717600052D5D /* MessageView.swift */; };
+		A72716A6299674B000052D5D /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72716A5299674B000052D5D /* CommentModel.swift */; };
 		A76807F029953D170054941C /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76807EF29953D170054941C /* PostList.swift */; };
+		A76807F2299546F80054941C /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76807F1299546F80054941C /* CommentsView.swift */; };
 		A76C7D002994137800112679 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C7CFF2994137800112679 /* PostModel.swift */; };
+		A7762B302997A9E10031477A /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7762B2F2997A9E10031477A /* BrowserView.swift */; };
+		A7762B322997AAAC0031477A /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7762B312997AAAC0031477A /* CarouselView.swift */; };
+		A7762B342997C8510031477A /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7762B332997C8510031477A /* ImageGridView.swift */; };
 		A7BF31E22993985F003FA7D4 /* DogstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BF31E12993985F003FA7D4 /* DogstagramApp.swift */; };
 		A7BF31E629939860003FA7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF31E529939860003FA7D4 /* Assets.xcassets */; };
 		A7BF31E929939860003FA7D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BF31E829939860003FA7D4 /* Preview Assets.xcassets */; };
@@ -20,8 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72716A32996717600052D5D /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		A72716A5299674B000052D5D /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		A76807EF29953D170054941C /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		A76807F1299546F80054941C /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		A76C7CFF2994137800112679 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		A7762B2F2997A9E10031477A /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		A7762B312997AAAC0031477A /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		A7762B332997C8510031477A /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		A7BF31DE2993985F003FA7D4 /* Dogstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BF31E12993985F003FA7D4 /* DogstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogstagramApp.swift; sourceTree = "<group>"; };
 		A7BF31E529939860003FA7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,7 @@
 			children = (
 				A76C7CFF2994137800112679 /* PostModel.swift */,
 				A76807EF29953D170054941C /* PostList.swift */,
+				A72716A5299674B000052D5D /* CommentModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,6 +118,8 @@
 				A7BF31E12993985F003FA7D4 /* DogstagramApp.swift */,
 				A7BF31F42993D009003FA7D4 /* ContentView.swift */,
 				A7BF31F92993DC41003FA7D4 /* FeedView.swift */,
+				A76807F1299546F80054941C /* CommentsView.swift */,
+				A7762B2F2997A9E10031477A /* BrowserView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -113,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				A7BF31FB2993E0B8003FA7D4 /* PostView.swift */,
+				A72716A32996717600052D5D /* MessageView.swift */,
+				A7762B312997AAAC0031477A /* CarouselView.swift */,
+				A7762B332997C8510031477A /* ImageGridView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -199,9 +217,15 @@
 				A7BF31FA2993DC41003FA7D4 /* FeedView.swift in Sources */,
 				A76C7D002994137800112679 /* PostModel.swift in Sources */,
 				A7BF31F52993D009003FA7D4 /* ContentView.swift in Sources */,
+				A72716A42996717600052D5D /* MessageView.swift in Sources */,
+				A7762B302997A9E10031477A /* BrowserView.swift in Sources */,
 				A7BF31F82993D819003FA7D4 /* Extensions.swift in Sources */,
+				A7762B342997C8510031477A /* ImageGridView.swift in Sources */,
 				A7BF31FC2993E0B8003FA7D4 /* PostView.swift in Sources */,
 				A7BF31E22993985F003FA7D4 /* DogstagramApp.swift in Sources */,
+				A72716A6299674B000052D5D /* CommentModel.swift in Sources */,
+				A76807F2299546F80054941C /* CommentsView.swift in Sources */,
+				A7762B322997AAAC0031477A /* CarouselView.swift in Sources */,
 				A76807F029953D170054941C /* PostList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

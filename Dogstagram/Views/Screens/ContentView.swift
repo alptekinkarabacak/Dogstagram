@@ -11,14 +11,16 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView{
-                FeedView(posts: PostList())
+                FeedView(posts: PostList(), title: "Feed")
             }
             .tabItem {
                 Image(systemName: "book.fill")
                 Text("Feed")
             }
-            
-            Text("Screen 2").tabItem {
+            NavigationView {
+                BrowserView()
+            }
+            .tabItem {
                 Image(systemName: "magnifyingglass")
                 Text("Browse")
             }
@@ -33,8 +35,6 @@ struct ContentView: View {
                 Text("Profile")
             }
         }.accentColor(Color.MyTheme.purpleColor)
-        
-
     }
 }
 
